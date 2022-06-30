@@ -1,0 +1,48 @@
+/* scrollbar styles */
+
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #dbdbdb;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(215, 174, 90);
+  border-radius: 7px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(215, 174, 90, 0.9);
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(215, 174, 90);
+  opacity: 1; /* Firefox */
+  font-weight: 600;
+}
+
+th,
+td {
+  border: 1px solid #e0e0e0;
+}
+
+.noSelect {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.noSelect:focus {
+  outline: none !important;
+}
